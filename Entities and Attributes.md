@@ -24,7 +24,6 @@
   - cropId
   - PesticideId
   - Quantity
-
 - Season
  - Name
  - Duration
