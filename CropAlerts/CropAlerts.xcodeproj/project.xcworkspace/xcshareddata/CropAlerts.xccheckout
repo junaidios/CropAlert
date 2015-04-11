@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DD2DDFFA-FBE8-4D9B-9C48-F493EABBCF90</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CropAlerts</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9CCCD8DDC797F734EF07DBAA7DB6B72FFC6453AE</key>
+		<string>https://github.com/junaidios/CropAlert.git</string>
+		<key>F10CEF7C65E05B591AD83627D329CE446FC2AECF</key>
+		<string>https://github.com/coeus-solutions/FlowerApp-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CropAlerts/CropAlerts.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9CCCD8DDC797F734EF07DBAA7DB6B72FFC6453AE</key>
+		<string>../../..</string>
+		<key>F10CEF7C65E05B591AD83627D329CE446FC2AECF</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/junaidios/CropAlert.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9CCCD8DDC797F734EF07DBAA7DB6B72FFC6453AE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F10CEF7C65E05B591AD83627D329CE446FC2AECF</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9CCCD8DDC797F734EF07DBAA7DB6B72FFC6453AE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CropAlert</string>
+		</dict>
+	</array>
+</dict>
+</plist>
