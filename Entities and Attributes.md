@@ -1,0 +1,42 @@
+#Entities#
+- User  
+   - Name
+   - Email
+   - Contact
+   - locationID
+- Location
+  - Lat
+  - Lng
+  - Name
+- Crop
+  - Name
+  - Crop area
+- Disease/pest
+  - Name 
+- Disease cure
+  - Pesticide
+  - Method
+  - Quantity
+- Pesticide
+  - Name
+  - Potency
+- Crop applied on pesticide
+  - cropId
+  - PesticideId
+  - Quantity
+
+- Season
+ - Name
+ - Duration
+ - Start month
+ - End month
+- Date and Time
+  - Harvest date
+  - Current date
+  - Pest Started date
+- Crop pictures
+  - picture url
+  - CropID
+- Disease effect
+  - area size (Affected)
+  - affect
