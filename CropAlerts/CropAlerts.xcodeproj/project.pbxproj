@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		693F723E1AD92B4B00B1C94F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F723D1AD92B4B00B1C94F /* LoginViewController.m */; };
+		693F72411AD92B5D00B1C94F /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F72401AD92B5D00B1C94F /* SignUpViewController.m */; };
+		693F72441AD92B7900B1C94F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F72421AD92B7900B1C94F /* HomeViewController.m */; };
+		693F72521AD9322300B1C94F /* UIAlertView+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F72471AD9322300B1C94F /* UIAlertView+JS.m */; };
+		693F72531AD9322300B1C94F /* UIColor+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F72491AD9322300B1C94F /* UIColor+JS.m */; };
+		693F72541AD9322300B1C94F /* UIImage+JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F724B1AD9322300B1C94F /* UIImage+JS.m */; };
+		693F72551AD9322300B1C94F /* UIImageView+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F724D1AD9322300B1C94F /* UIImageView+URL.m */; };
+		693F72561AD9322300B1C94F /* UITextField+Style.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F724F1AD9322300B1C94F /* UITextField+Style.m */; };
+		693F72571AD9322300B1C94F /* UIView+Borders.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F72511AD9322300B1C94F /* UIView+Borders.m */; };
+		693F725B1AD938FA00B1C94F /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F725A1AD938FA00B1C94F /* MapViewController.m */; };
+		693F725D1AD9395100B1C94F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693F725C1AD9395100B1C94F /* MapKit.framework */; };
+		693F726B1AD93D9D00B1C94F /* DBMapSelectorGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F72601AD93D9D00B1C94F /* DBMapSelectorGestureRecognizer.m */; };
+		693F726C1AD93D9D00B1C94F /* DBMapSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F72621AD93D9D00B1C94F /* DBMapSelectorViewController.m */; };
+		693F726D1AD93D9D00B1C94F /* DBMapSelectorAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F72651AD93D9D00B1C94F /* DBMapSelectorAnnotation.m */; };
+		693F726E1AD93D9D00B1C94F /* DBMapSelectorOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F72681AD93D9D00B1C94F /* DBMapSelectorOverlay.m */; };
+		693F726F1AD93D9D00B1C94F /* DBMapSelectorOverlayRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F726A1AD93D9D00B1C94F /* DBMapSelectorOverlayRenderer.m */; };
+		693F72721AD95CAA00B1C94F /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F72711AD95CAA00B1C94F /* User.m */; };
+		693F72761AD95CED00B1C94F /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F72751AD95CED00B1C94F /* Location.m */; };
+		693F72791AD95CF800B1C94F /* Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F72781AD95CF800B1C94F /* Crop.m */; };
+		693F727C1AD95D0600B1C94F /* Disease.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F727B1AD95D0600B1C94F /* Disease.m */; };
+		693F727F1AD95D1000B1C94F /* Cure.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F727E1AD95D1000B1C94F /* Cure.m */; };
+		693F72821AD95D2000B1C94F /* Pesticide.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F72811AD95D2000B1C94F /* Pesticide.m */; };
+		693F72851AD95D2B00B1C94F /* Season.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F72841AD95D2B00B1C94F /* Season.m */; };
+		693F72881AD95E6500B1C94F /* DiseaseEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 693F72871AD95E6500B1C94F /* DiseaseEffect.m */; };
 		694AF3411AD8F8B600D63D56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 694AF3401AD8F8B600D63D56 /* main.m */; };
 		694AF3441AD8F8B600D63D56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 694AF3431AD8F8B600D63D56 /* AppDelegate.m */; };
 		694AF34A1AD8F8B600D63D56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 694AF3481AD8F8B600D63D56 /* Main.storyboard */; };
@@ -39,8 +63,6 @@
 		694AF3C41AD8F94C00D63D56 /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 694AF39F1AD8F94C00D63D56 /* BaseService.m */; };
 		694AF3C51AD8F94C00D63D56 /* ItemService.m in Sources */ = {isa = PBXBuildFile; fileRef = 694AF3A11AD8F94C00D63D56 /* ItemService.m */; };
 		694AF3C61AD8F94C00D63D56 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694AF3A41AD8F94C00D63D56 /* BaseViewController.m */; };
-		694AF3C71AD8F94C00D63D56 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694AF3A61AD8F94C00D63D56 /* DetailViewController.m */; };
-		694AF3C81AD8F94C00D63D56 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694AF3A81AD8F94C00D63D56 /* HomeViewController.m */; };
 		694AF3C91AD8F94C00D63D56 /* CustomMainMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 694AF3AC1AD8F94C00D63D56 /* CustomMainMenuCell.m */; };
 		694AF3CC1AD9037B00D63D56 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 694AF3CA1AD9037B00D63D56 /* Bolts.framework */; };
 		694AF3CD1AD9037B00D63D56 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 694AF3CB1AD9037B00D63D56 /* Parse.framework */; };
@@ -68,6 +90,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		693F723C1AD92B4B00B1C94F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		693F723D1AD92B4B00B1C94F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		693F723F1AD92B5D00B1C94F /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		693F72401AD92B5D00B1C94F /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		693F72421AD92B7900B1C94F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		693F72431AD92B7900B1C94F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		693F72461AD9322300B1C94F /* UIAlertView+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+JS.h"; sourceTree = "<group>"; };
+		693F72471AD9322300B1C94F /* UIAlertView+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+JS.m"; sourceTree = "<group>"; };
+		693F72481AD9322300B1C94F /* UIColor+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JS.h"; sourceTree = "<group>"; };
+		693F72491AD9322300B1C94F /* UIColor+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JS.m"; sourceTree = "<group>"; };
+		693F724A1AD9322300B1C94F /* UIImage+JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JS.h"; sourceTree = "<group>"; };
+		693F724B1AD9322300B1C94F /* UIImage+JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JS.m"; sourceTree = "<group>"; };
+		693F724C1AD9322300B1C94F /* UIImageView+URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+URL.h"; sourceTree = "<group>"; };
+		693F724D1AD9322300B1C94F /* UIImageView+URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+URL.m"; sourceTree = "<group>"; };
+		693F724E1AD9322300B1C94F /* UITextField+Style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Style.h"; sourceTree = "<group>"; };
+		693F724F1AD9322300B1C94F /* UITextField+Style.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Style.m"; sourceTree = "<group>"; };
+		693F72501AD9322300B1C94F /* UIView+Borders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Borders.h"; sourceTree = "<group>"; };
+		693F72511AD9322300B1C94F /* UIView+Borders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Borders.m"; sourceTree = "<group>"; };
+		693F72591AD938FA00B1C94F /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		693F725A1AD938FA00B1C94F /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		693F725C1AD9395100B1C94F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		693F725F1AD93D9D00B1C94F /* DBMapSelectorGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMapSelectorGestureRecognizer.h; sourceTree = "<group>"; };
+		693F72601AD93D9D00B1C94F /* DBMapSelectorGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMapSelectorGestureRecognizer.m; sourceTree = "<group>"; };
+		693F72611AD93D9D00B1C94F /* DBMapSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMapSelectorViewController.h; sourceTree = "<group>"; };
+		693F72621AD93D9D00B1C94F /* DBMapSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMapSelectorViewController.m; sourceTree = "<group>"; };
+		693F72641AD93D9D00B1C94F /* DBMapSelectorAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMapSelectorAnnotation.h; sourceTree = "<group>"; };
+		693F72651AD93D9D00B1C94F /* DBMapSelectorAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMapSelectorAnnotation.m; sourceTree = "<group>"; };
+		693F72671AD93D9D00B1C94F /* DBMapSelectorOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMapSelectorOverlay.h; sourceTree = "<group>"; };
+		693F72681AD93D9D00B1C94F /* DBMapSelectorOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMapSelectorOverlay.m; sourceTree = "<group>"; };
+		693F72691AD93D9D00B1C94F /* DBMapSelectorOverlayRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBMapSelectorOverlayRenderer.h; sourceTree = "<group>"; };
+		693F726A1AD93D9D00B1C94F /* DBMapSelectorOverlayRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBMapSelectorOverlayRenderer.m; sourceTree = "<group>"; };
+		693F72701AD95CAA00B1C94F /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		693F72711AD95CAA00B1C94F /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		693F72741AD95CED00B1C94F /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		693F72751AD95CED00B1C94F /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		693F72771AD95CF800B1C94F /* Crop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crop.h; sourceTree = "<group>"; };
+		693F72781AD95CF800B1C94F /* Crop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Crop.m; sourceTree = "<group>"; };
+		693F727A1AD95D0600B1C94F /* Disease.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Disease.h; sourceTree = "<group>"; };
+		693F727B1AD95D0600B1C94F /* Disease.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Disease.m; sourceTree = "<group>"; };
+		693F727D1AD95D1000B1C94F /* Cure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cure.h; sourceTree = "<group>"; };
+		693F727E1AD95D1000B1C94F /* Cure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cure.m; sourceTree = "<group>"; };
+		693F72801AD95D2000B1C94F /* Pesticide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pesticide.h; sourceTree = "<group>"; };
+		693F72811AD95D2000B1C94F /* Pesticide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pesticide.m; sourceTree = "<group>"; };
+		693F72831AD95D2B00B1C94F /* Season.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Season.h; sourceTree = "<group>"; };
+		693F72841AD95D2B00B1C94F /* Season.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Season.m; sourceTree = "<group>"; };
+		693F72861AD95E6500B1C94F /* DiseaseEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiseaseEffect.h; sourceTree = "<group>"; };
+		693F72871AD95E6500B1C94F /* DiseaseEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiseaseEffect.m; sourceTree = "<group>"; };
 		694AF33B1AD8F8B600D63D56 /* CropAlerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CropAlerts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		694AF33F1AD8F8B600D63D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		694AF3401AD8F8B600D63D56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -134,10 +203,6 @@
 		694AF3A11AD8F94C00D63D56 /* ItemService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemService.m; sourceTree = "<group>"; };
 		694AF3A31AD8F94C00D63D56 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		694AF3A41AD8F94C00D63D56 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		694AF3A51AD8F94C00D63D56 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		694AF3A61AD8F94C00D63D56 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		694AF3A71AD8F94C00D63D56 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		694AF3A81AD8F94C00D63D56 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		694AF3AB1AD8F94C00D63D56 /* CustomMainMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMainMenuCell.h; sourceTree = "<group>"; };
 		694AF3AC1AD8F94C00D63D56 /* CustomMainMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMainMenuCell.m; sourceTree = "<group>"; };
 		694AF3CA1AD9037B00D63D56 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../Bolts.framework; sourceTree = "<group>"; };
@@ -164,6 +229,7 @@
 				694AF3E21AD904BD00D63D56 /* libz.dylib in Frameworks */,
 				694AF3E01AD904B300D63D56 /* SystemConfiguration.framework in Frameworks */,
 				694AF3DE1AD904A900D63D56 /* StoreKit.framework in Frameworks */,
+				693F725D1AD9395100B1C94F /* MapKit.framework in Frameworks */,
 				694AF3DC1AD904A200D63D56 /* Security.framework in Frameworks */,
 				694AF3DA1AD9049D00D63D56 /* MobileCoreServices.framework in Frameworks */,
 				694AF3D61AD9049200D63D56 /* CoreGraphics.framework in Frameworks */,
@@ -186,6 +252,114 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		693F72381AD92B1E00B1C94F /* Report */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
+		693F72391AD92B1E00B1C94F /* MyCrops */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyCrops;
+			sourceTree = "<group>";
+		};
+		693F723A1AD92B1E00B1C94F /* MyRegion */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyRegion;
+			sourceTree = "<group>";
+		};
+		693F723B1AD92B1E00B1C94F /* UserAccount */ = {
+			isa = PBXGroup;
+			children = (
+				693F723C1AD92B4B00B1C94F /* LoginViewController.h */,
+				693F723D1AD92B4B00B1C94F /* LoginViewController.m */,
+				693F723F1AD92B5D00B1C94F /* SignUpViewController.h */,
+				693F72401AD92B5D00B1C94F /* SignUpViewController.m */,
+				693F72431AD92B7900B1C94F /* HomeViewController.h */,
+				693F72421AD92B7900B1C94F /* HomeViewController.m */,
+			);
+			path = UserAccount;
+			sourceTree = "<group>";
+		};
+		693F72451AD9322300B1C94F /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				693F72461AD9322300B1C94F /* UIAlertView+JS.h */,
+				693F72471AD9322300B1C94F /* UIAlertView+JS.m */,
+				693F72481AD9322300B1C94F /* UIColor+JS.h */,
+				693F72491AD9322300B1C94F /* UIColor+JS.m */,
+				693F724A1AD9322300B1C94F /* UIImage+JS.h */,
+				693F724B1AD9322300B1C94F /* UIImage+JS.m */,
+				693F724C1AD9322300B1C94F /* UIImageView+URL.h */,
+				693F724D1AD9322300B1C94F /* UIImageView+URL.m */,
+				693F724E1AD9322300B1C94F /* UITextField+Style.h */,
+				693F724F1AD9322300B1C94F /* UITextField+Style.m */,
+				693F72501AD9322300B1C94F /* UIView+Borders.h */,
+				693F72511AD9322300B1C94F /* UIView+Borders.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		693F72581AD9387C00B1C94F /* News */ = {
+			isa = PBXGroup;
+			children = (
+				693F72591AD938FA00B1C94F /* MapViewController.h */,
+				693F725A1AD938FA00B1C94F /* MapViewController.m */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		693F725E1AD93D9D00B1C94F /* MapOverLayer */ = {
+			isa = PBXGroup;
+			children = (
+				693F725F1AD93D9D00B1C94F /* DBMapSelectorGestureRecognizer.h */,
+				693F72601AD93D9D00B1C94F /* DBMapSelectorGestureRecognizer.m */,
+				693F72611AD93D9D00B1C94F /* DBMapSelectorViewController.h */,
+				693F72621AD93D9D00B1C94F /* DBMapSelectorViewController.m */,
+				693F72631AD93D9D00B1C94F /* MapSelectorAnnotation */,
+				693F72661AD93D9D00B1C94F /* MapSelectorOverlay */,
+			);
+			path = MapOverLayer;
+			sourceTree = "<group>";
+		};
+		693F72631AD93D9D00B1C94F /* MapSelectorAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				693F72641AD93D9D00B1C94F /* DBMapSelectorAnnotation.h */,
+				693F72651AD93D9D00B1C94F /* DBMapSelectorAnnotation.m */,
+			);
+			path = MapSelectorAnnotation;
+			sourceTree = "<group>";
+		};
+		693F72661AD93D9D00B1C94F /* MapSelectorOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				693F72671AD93D9D00B1C94F /* DBMapSelectorOverlay.h */,
+				693F72681AD93D9D00B1C94F /* DBMapSelectorOverlay.m */,
+				693F72691AD93D9D00B1C94F /* DBMapSelectorOverlayRenderer.h */,
+				693F726A1AD93D9D00B1C94F /* DBMapSelectorOverlayRenderer.m */,
+			);
+			path = MapSelectorOverlay;
+			sourceTree = "<group>";
+		};
+		693F72731AD95CB600B1C94F /* OLD */ = {
+			isa = PBXGroup;
+			children = (
+				694AF3971AD8F94C00D63D56 /* Item.h */,
+				694AF3981AD8F94C00D63D56 /* Item.m */,
+				694AF3991AD8F94C00D63D56 /* MenuOne.h */,
+				694AF39A1AD8F94C00D63D56 /* MenuOne.m */,
+				694AF39B1AD8F94C00D63D56 /* MenuTwo.h */,
+				694AF39C1AD8F94C00D63D56 /* MenuTwo.m */,
+			);
+			name = OLD;
+			sourceTree = "<group>";
+		};
 		694AF3321AD8F8B600D63D56 = {
 			isa = PBXGroup;
 			children = (
@@ -248,6 +422,7 @@
 		694AF3641AD8F94C00D63D56 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				693F72451AD9322300B1C94F /* Categories */,
 				694AF3651AD8F94C00D63D56 /* Constants */,
 				694AF3671AD8F94C00D63D56 /* ExternalLib */,
 				694AF38F1AD8F94C00D63D56 /* Managers */,
@@ -270,6 +445,7 @@
 		694AF3671AD8F94C00D63D56 /* ExternalLib */ = {
 			isa = PBXGroup;
 			children = (
+				693F725E1AD93D9D00B1C94F /* MapOverLayer */,
 				694AF3681AD8F94C00D63D56 /* AFNetworking */,
 			);
 			path = ExternalLib;
@@ -350,12 +526,23 @@
 			children = (
 				694AF3951AD8F94C00D63D56 /* BaseEntity.h */,
 				694AF3961AD8F94C00D63D56 /* BaseEntity.m */,
-				694AF3971AD8F94C00D63D56 /* Item.h */,
-				694AF3981AD8F94C00D63D56 /* Item.m */,
-				694AF3991AD8F94C00D63D56 /* MenuOne.h */,
-				694AF39A1AD8F94C00D63D56 /* MenuOne.m */,
-				694AF39B1AD8F94C00D63D56 /* MenuTwo.h */,
-				694AF39C1AD8F94C00D63D56 /* MenuTwo.m */,
+				693F72701AD95CAA00B1C94F /* User.h */,
+				693F72711AD95CAA00B1C94F /* User.m */,
+				693F72741AD95CED00B1C94F /* Location.h */,
+				693F72751AD95CED00B1C94F /* Location.m */,
+				693F72771AD95CF800B1C94F /* Crop.h */,
+				693F72781AD95CF800B1C94F /* Crop.m */,
+				693F727A1AD95D0600B1C94F /* Disease.h */,
+				693F727B1AD95D0600B1C94F /* Disease.m */,
+				693F727D1AD95D1000B1C94F /* Cure.h */,
+				693F727E1AD95D1000B1C94F /* Cure.m */,
+				693F72801AD95D2000B1C94F /* Pesticide.h */,
+				693F72811AD95D2000B1C94F /* Pesticide.m */,
+				693F72831AD95D2B00B1C94F /* Season.h */,
+				693F72841AD95D2B00B1C94F /* Season.m */,
+				693F72861AD95E6500B1C94F /* DiseaseEffect.h */,
+				693F72871AD95E6500B1C94F /* DiseaseEffect.m */,
+				693F72731AD95CB600B1C94F /* OLD */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -376,10 +563,11 @@
 			children = (
 				694AF3A31AD8F94C00D63D56 /* BaseViewController.h */,
 				694AF3A41AD8F94C00D63D56 /* BaseViewController.m */,
-				694AF3A51AD8F94C00D63D56 /* DetailViewController.h */,
-				694AF3A61AD8F94C00D63D56 /* DetailViewController.m */,
-				694AF3A71AD8F94C00D63D56 /* HomeViewController.h */,
-				694AF3A81AD8F94C00D63D56 /* HomeViewController.m */,
+				693F72581AD9387C00B1C94F /* News */,
+				693F72381AD92B1E00B1C94F /* Report */,
+				693F72391AD92B1E00B1C94F /* MyCrops */,
+				693F723A1AD92B1E00B1C94F /* MyRegion */,
+				693F723B1AD92B1E00B1C94F /* UserAccount */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -406,6 +594,7 @@
 			children = (
 				694AF3E31AD904C800D63D56 /* libsqlite3.dylib */,
 				694AF3E11AD904BD00D63D56 /* libz.dylib */,
+				693F725C1AD9395100B1C94F /* MapKit.framework */,
 				694AF3DF1AD904B300D63D56 /* SystemConfiguration.framework */,
 				694AF3DD1AD904A900D63D56 /* StoreKit.framework */,
 				694AF3DB1AD904A200D63D56 /* Security.framework */,
@@ -470,6 +659,11 @@
 				TargetAttributes = {
 					694AF33A1AD8F8B600D63D56 = {
 						CreatedOnToolsVersion = 6.1.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					694AF3531AD8F8B600D63D56 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -521,37 +715,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				693F72561AD9322300B1C94F /* UITextField+Style.m in Sources */,
+				693F72531AD9322300B1C94F /* UIColor+JS.m in Sources */,
+				693F727C1AD95D0600B1C94F /* Disease.m in Sources */,
 				694AF3B31AD8F94C00D63D56 /* AFURLRequestSerialization.m in Sources */,
+				693F726F1AD93D9D00B1C94F /* DBMapSelectorOverlayRenderer.m in Sources */,
+				693F72521AD9322300B1C94F /* UIAlertView+JS.m in Sources */,
 				694AF3BF1AD8F94C00D63D56 /* NetworkManager.m in Sources */,
 				694AF3C41AD8F94C00D63D56 /* BaseService.m in Sources */,
+				693F726B1AD93D9D00B1C94F /* DBMapSelectorGestureRecognizer.m in Sources */,
 				694AF3BE1AD8F94C00D63D56 /* DataManager.m in Sources */,
 				694AF3B21AD8F94C00D63D56 /* AFURLConnectionOperation.m in Sources */,
 				694AF3C61AD8F94C00D63D56 /* BaseViewController.m in Sources */,
+				693F72411AD92B5D00B1C94F /* SignUpViewController.m in Sources */,
 				694AF3B81AD8F94C00D63D56 /* UIAlertView+AFNetworking.m in Sources */,
+				693F72551AD9322300B1C94F /* UIImageView+URL.m in Sources */,
+				693F72761AD95CED00B1C94F /* Location.m in Sources */,
 				694AF3B11AD8F94C00D63D56 /* AFSecurityPolicy.m in Sources */,
 				694AF3AD1AD8F94C00D63D56 /* AFHTTPRequestOperation.m in Sources */,
 				694AF3B51AD8F94C00D63D56 /* AFURLSessionManager.m in Sources */,
 				694AF3B41AD8F94C00D63D56 /* AFURLResponseSerialization.m in Sources */,
+				693F72851AD95D2B00B1C94F /* Season.m in Sources */,
 				694AF3441AD8F8B600D63D56 /* AppDelegate.m in Sources */,
 				694AF3BB1AD8F94C00D63D56 /* UIProgressView+AFNetworking.m in Sources */,
+				693F72721AD95CAA00B1C94F /* User.m in Sources */,
+				693F726E1AD93D9D00B1C94F /* DBMapSelectorOverlay.m in Sources */,
+				693F726C1AD93D9D00B1C94F /* DBMapSelectorViewController.m in Sources */,
 				694AF3C91AD8F94C00D63D56 /* CustomMainMenuCell.m in Sources */,
 				694AF3C51AD8F94C00D63D56 /* ItemService.m in Sources */,
 				694AF3AF1AD8F94C00D63D56 /* AFHTTPSessionManager.m in Sources */,
 				694AF3B61AD8F94C00D63D56 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				693F726D1AD93D9D00B1C94F /* DBMapSelectorAnnotation.m in Sources */,
+				693F72571AD9322300B1C94F /* UIView+Borders.m in Sources */,
 				694AF3AE1AD8F94C00D63D56 /* AFHTTPRequestOperationManager.m in Sources */,
 				694AF3BA1AD8F94C00D63D56 /* UIImageView+AFNetworking.m in Sources */,
+				693F72791AD95CF800B1C94F /* Crop.m in Sources */,
 				694AF3B91AD8F94C00D63D56 /* UIButton+AFNetworking.m in Sources */,
 				694AF3BC1AD8F94C00D63D56 /* UIRefreshControl+AFNetworking.m in Sources */,
 				694AF3C31AD8F94C00D63D56 /* MenuTwo.m in Sources */,
+				693F727F1AD95D1000B1C94F /* Cure.m in Sources */,
+				693F72821AD95D2000B1C94F /* Pesticide.m in Sources */,
+				693F72441AD92B7900B1C94F /* HomeViewController.m in Sources */,
+				693F72881AD95E6500B1C94F /* DiseaseEffect.m in Sources */,
 				694AF3C01AD8F94C00D63D56 /* BaseEntity.m in Sources */,
 				694AF3BD1AD8F94C00D63D56 /* UIWebView+AFNetworking.m in Sources */,
-				694AF3C81AD8F94C00D63D56 /* HomeViewController.m in Sources */,
-				694AF3C71AD8F94C00D63D56 /* DetailViewController.m in Sources */,
 				694AF3C21AD8F94C00D63D56 /* MenuOne.m in Sources */,
 				694AF3B01AD8F94C00D63D56 /* AFNetworkReachabilityManager.m in Sources */,
+				693F725B1AD938FA00B1C94F /* MapViewController.m in Sources */,
 				694AF3411AD8F8B600D63D56 /* main.m in Sources */,
 				694AF3B71AD8F94C00D63D56 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				694AF3C11AD8F94C00D63D56 /* Item.m in Sources */,
+				693F723E1AD92B4B00B1C94F /* LoginViewController.m in Sources */,
+				693F72541AD9322300B1C94F /* UIImage+JS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,6 +965,7 @@
 				694AF3601AD8F8B600D63D56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		694AF3611AD8F8B600D63D56 /* Build configuration list for PBXNativeTarget "CropAlertsTests" */ = {
 			isa = XCConfigurationList;
@@ -758,6 +974,7 @@
 				694AF3631AD8F8B600D63D56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

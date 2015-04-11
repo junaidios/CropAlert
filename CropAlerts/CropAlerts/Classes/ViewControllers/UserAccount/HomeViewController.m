@@ -9,7 +9,7 @@
 #import "HomeViewController.h"
 #import "ItemService.h"
 #import "CustomMainMenuCell.h"
-#import "Item.h"
+#import "User.h"
 
 @interface HomeViewController (){
 
@@ -79,7 +79,11 @@
 //    _tableView.dataSource = self;
 //    _tableView.delegate = self;
     
-    [self loadAllItemFromServer];
+//    [self loadAllItemFromServer];
+    
+
+    [User testing];
+    
     
     
 // Do any additional setup after loading the view, typically from a nib.

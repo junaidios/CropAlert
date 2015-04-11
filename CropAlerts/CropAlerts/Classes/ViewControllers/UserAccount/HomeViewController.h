@@ -10,9 +10,9 @@
 #import "BaseViewController.h"
 
 @interface HomeViewController : BaseViewController <UITableViewDataSource, UITableViewDelegate>
+
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
-
-
 + (UIColor *)colorFromHexString:(NSString *)hexString;
+
 @end
