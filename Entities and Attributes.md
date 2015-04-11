@@ -10,32 +10,35 @@
   - Name
 - Crop
   - Name
-  - Crop area
+  - Area
+  - Harvest date
+  - Sowing date
+  - Current date
+  - Pest started date
+  - SeasonId
+  - DiseaseId
 - Disease/pest
   - Name 
+  - SeasonId
+  - isCurefound
+  - CureId
+  - Picture Name
 - Disease cure
-  - Pesticide
+  - PesticideId
   - Method
   - Quantity
+  - CropId
 - Pesticide
   - Name
   - Potency
-- Crop applied on pesticide
-  - cropId
-  - PesticideId
-  - Quantity
 - Season
  - Name
- - Duration
  - Start month
  - End month
-- Date and Time
-  - Harvest date
-  - Current date
-  - Pest Started date
-- Crop pictures
-  - picture url
-  - CropID
 - Disease effect
   - area size (Affected)
   - affect
+  - % age of area affected
+- User crops
+ - cropId 
+ - userId
