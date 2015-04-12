@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <Parse/Parse.h>
+#import "UIColor+JS.h"
 
 @interface AppDelegate ()
 
@@ -32,6 +33,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    
+    [[UINavigationBar appearance] setBarTintColor:[UIColor caGreenNavBgColor]];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     
     [self setupParseWithLaunchOptions:launchOptions];
     

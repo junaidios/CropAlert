@@ -1,18 +1,18 @@
 //
-//  LoginViewController.m
+//  NewReportViewController.m
 //  CropAlerts
 //
-//  Created by JayD on 11/04/2015.
+//  Created by JayD on 12/04/2015.
 //  Copyright (c) 2015 NASA. All rights reserved.
 //
 
-#import "LoginViewController.h"
+#import "NewReportViewController.h"
 
-@interface LoginViewController ()
+@interface NewReportViewController ()
 
 @end
 
-@implementation LoginViewController
+@implementation NewReportViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -22,13 +22,6 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
--(void) viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
-    
-    [self.navigationController setNavigationBarHidden:NO];
-    
 }
 
 /*

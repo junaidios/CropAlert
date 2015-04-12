@@ -37,14 +37,14 @@
     
     self.layer.masksToBounds = YES;
     self.layer.cornerRadius = radius;
-    self.layer.borderColor = [[UIColor gpOrangeColor] CGColor];
+    self.layer.borderColor = [[UIColor orangeColor] CGColor];
     self.layer.borderWidth = 1.0;
 }
 
 -(void)addBorderWithLightOrangeColor{
     
     self.layer.masksToBounds = YES;
-    self.layer.borderColor = [[UIColor gpOrangeColorWithAlpha:0.1] CGColor];
+    self.layer.borderColor = [[UIColor orangeColor] CGColor];
     self.layer.borderWidth = 1.0;
 }
 

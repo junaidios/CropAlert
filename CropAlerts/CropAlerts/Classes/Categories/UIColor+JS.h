@@ -13,26 +13,7 @@
 @interface UIColor (JS)
 
 
-// PATO VERSION ( DRIVE )
-
-+ (UIColor *) gpDarkBgColor;
-
-
-// GENERAL VERSION (USER)
-
-+ (UIColor *) gplightGrayBgColor;
-
-+ (UIColor *) gplightGrayInactiveBtnColor;
-
-+ (UIColor *) gpOrangeColor;
-
-+ (UIColor *) gpOrangeColorWithHalfAlpha;
-
-+ (UIColor *) gpOrangeColorWithAlpha:(CGFloat ) alpha;
-
-+ (UIColor *) gpMessageOrangeColor;
-
-+ (UIColor *) gpMapCircleStroke;
++ (UIColor *) caGreenNavBgColor;
 
 
 @end
